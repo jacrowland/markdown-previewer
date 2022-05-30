@@ -1,6 +1,3 @@
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faExpand } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 import WindowBar from './WindowBar';
 import WindowContent from './WindowContent';
@@ -22,7 +19,7 @@ const Window = (props) => {
 
     return (
         <div class="window" style={windowStyles}>
-            <WindowBar icon={props.icon} name={props.name} onClick={()=>{windowHeight == props.height ? setWindowHeight(props.maxHeight) : setWindowHeight(props.height)}}/>
+            <WindowBar icon={props.icon} name={props.name} onClick={()=>{windowHeight === props.height ? setWindowHeight(props.maxHeight) : setWindowHeight(props.height)}}/>
             <WindowContent height={windowHeight}>
                 {props.children}
             </WindowContent>

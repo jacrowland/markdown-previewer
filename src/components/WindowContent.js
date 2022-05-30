@@ -1,5 +1,3 @@
-
-
 const WindowContent = (props) => {
     const contentStyles = {
         height: props.height,

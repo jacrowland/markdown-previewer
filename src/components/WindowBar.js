@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faExpand } from '@fortawesome/free-solid-svg-icons';
-import { faSquare } from "@fortawesome/free-solid-svg-icons";
+import { faExpand, faSquare } from '@fortawesome/free-solid-svg-icons';
 const WindowBar = (props) => {
 
     const [buttonColor, setButtonColor] = useState('black');

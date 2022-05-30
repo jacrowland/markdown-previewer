@@ -52,7 +52,7 @@ MarkdownPreviewer.defaultProps = {
   // this is multi-line code:
   
   function anotherExample(firstLine, lastLine) {
-    if (firstLine == \'\`\`\`\' && lastLine == \'\`\`\`\') {
+    if (firstLine =='\`\`\`' && lastLine == '\`\`\`') {
       return multiLineCode;
     }
   }
@@ -84,6 +84,5 @@ MarkdownPreviewer.defaultProps = {
   1. And last but not least, let's not forget embedded images:
   
   ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
-  
   `
 }
