@@ -51,3 +51,7 @@ img {
 .window-content {
     transition: 0.3s ease-in-out;
 }
+
+button {
+    all: unset
+}

@@ -23,9 +23,9 @@ const WindowBar = (props) => {
             {' ' + props.name}
         </div>
         <div>
-            <a onMouseEnter={()=>{setButtonColor('white'); setCursor('pointer')}} onMouseLeave={()=>{setButtonColor('black');setCursor('default')}} onClick={props.onClick}>
+            <button onMouseEnter={()=>{setButtonColor('white'); setCursor('pointer')}} onMouseLeave={()=>{setButtonColor('black');setCursor('default')}} onClick={props.onClick}>
                 <FontAwesomeIcon icon={faExpand} style={{color: buttonColor}}  />
-            </a>
+            </button>
         </div>
     </div>
     );
